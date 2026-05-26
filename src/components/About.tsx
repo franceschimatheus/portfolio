@@ -56,8 +56,7 @@ export function About() {
           <div className="grid md:grid-cols-2 gap-12">
             <div>
               <p className="text-lg text-neutral-600 dark:text-neutral-400 mb-6 leading-relaxed">
-                Product-focused Senior Software Analyst with 4+ years of experience delivering high-impact mobile and web applications. 
-                Proven track record of thriving in distributed, asynchronous environments by balancing complex technical requirements with autonomous execution.
+                Full-Stack and Mobile Engineer with 4+ years of experience building enterprise platforms, scalable APIs, and real-time applications using React, React Native, Node.js, Golang, PostgreSQL, and cloud-native infrastructure on GCP. Experienced in leading end-to-end product development, mentoring developers, improving engineering workflows, and delivering production-ready systems across enterprise and startup environments.
               </p>
               <p className="text-lg text-neutral-600 dark:text-neutral-400 leading-relaxed">
                 Adept at bridging technical gaps through clear documentation, transparent communication, and 

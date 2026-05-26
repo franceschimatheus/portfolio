@@ -47,11 +47,12 @@ export function Projects() {
                 
                 <ul className="grid md:grid-cols-2 gap-x-8 gap-y-4">
                   {[
-                    'Own the full product lifecycle from user research and ideation to deployment and iteration on mobile platforms.',
-                    'Architected and built a scalable infrastructure using React Native, Golang, and PostgreSQL, prioritizing self-managed task execution.',
-                    'Developed real-time engagement features and event-based systems.',
-                    'Implemented user verification and community-driven features focused on retention and trust.',
-                    'Continuously iterate based on user feedback to improve engagement and usability.'
+                    'Founded and developed a location-based social platform using React Native (Expo), Golang, PostgreSQL, WebSockets, and Oracle Cloud infrastructure.',
+                    'Implemented real-time chat systems, geolocation-based discovery, push notifications, and community features.',
+                    'Integrated authentication with Clerk and analytics/event tracking with PostHog.',
+                    'Leading integration of PIX split payments to support creator and community monetization features.',
+                    'Led product architecture, infrastructure deployment, analytics strategy, and mobile application development as sole technical founder.',
+                    'Acquired 300+ monthly active users during the initial product launch phase.'
                   ].map((item, i) => (
                     <li key={i} className="text-neutral-600 dark:text-neutral-400 text-base leading-relaxed relative pl-5">
                       <span className="absolute left-0 top-2.5 w-1.5 h-1.5 rounded-full bg-indigo-500/50" />
@@ -78,8 +79,8 @@ export function Projects() {
               </div>
               <ul className="space-y-3 mt-4">
                 {[
-                  'Led technical development of a hardware/software product integrating ESP32 microcontrollers.',
-                  'Built interfaces connecting embedded systems to user-facing applications.',
+                  'Led development of a hardware/software mobility solution integrating ESP32 microcontrollers with user-facing applications.',
+                  'Built interfaces connecting embedded systems, telemetry, and mobile/web platforms.',
                   'Achieved 1st place in the national INOVA innovation competition (2022).'
                 ].map((item, i) => (
                   <li key={i} className="text-neutral-600 dark:text-neutral-400 text-sm leading-relaxed relative pl-4">

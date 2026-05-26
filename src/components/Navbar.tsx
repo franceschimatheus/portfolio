@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
+import { ReadCvLogo } from '@phosphor-icons/react';
 
 const navItems = [
   { name: 'About', href: '#about' },
@@ -33,7 +34,7 @@ export function Navbar() {
         <a href="#" className="font-bold text-xl tracking-tighter">
           MF<span className="text-neutral-400">.</span>
         </a>
-        <nav className="hidden md:flex gap-8">
+        <nav className="hidden md:flex items-center gap-8">
           {navItems.map((item) => (
             <a
               key={item.name}
@@ -43,6 +44,15 @@ export function Navbar() {
               {item.name}
             </a>
           ))}
+          <a
+            href="/portfolio/matheus-franceschi.pdf"
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-1.5 px-4 py-1.5 text-sm font-semibold border border-neutral-300 dark:border-neutral-700 rounded-full hover:border-black dark:hover:border-white hover:scale-105 transition-all"
+          >
+            <ReadCvLogo className="w-3.5 h-3.5" weight="bold" />
+            Resume
+          </a>
         </nav>
       </div>
     </motion.header>

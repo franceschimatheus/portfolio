@@ -1,6 +1,6 @@
 import { motion, useMotionValue, useSpring } from 'framer-motion';
 import { useEffect } from 'react';
-import { ArrowDown, GithubLogo, LinkedinLogo } from '@phosphor-icons/react';
+import { ArrowDown, GithubLogo, LinkedinLogo, ReadCvLogo } from '@phosphor-icons/react';
 import confetti from 'canvas-confetti';
 
 export function Hero() {
@@ -76,8 +76,8 @@ export function Hero() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="text-lg md:text-xl text-neutral-600 dark:text-neutral-400 mb-10 max-w-lg leading-relaxed"
           >
-            Senior Software Analyst specializing in React Native, React, and Node.js. 
-            I build seamless user experiences that deliver measurable business value.
+            Senior Full-Stack & Mobile Engineer specializing in React, React Native, and Node.js.
+            I build enterprise platforms and scalable systems that deliver measurable business value.
           </motion.p>
 
           <motion.div
@@ -91,6 +91,15 @@ export function Hero() {
               className="px-8 py-3.5 bg-black dark:bg-white text-white dark:text-black font-semibold rounded-full hover:scale-105 hover:bg-neutral-800 dark:hover:bg-neutral-200 transition-all shadow-[0_0_40px_-10px_rgba(0,0,0,0.3)] dark:shadow-[0_0_40px_-10px_rgba(255,255,255,0.3)]"
             >
               Get in touch
+            </a>
+            <a
+              href="/portfolio/matheus-franceschi.pdf"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 px-6 py-3.5 border border-neutral-300 dark:border-neutral-700 font-semibold rounded-full hover:scale-105 hover:border-black dark:hover:border-white transition-all"
+            >
+              <ReadCvLogo className="w-4 h-4" weight="bold" />
+              Resume
             </a>
             <div className="flex items-center gap-3">
               <a

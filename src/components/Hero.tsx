@@ -25,7 +25,7 @@ export function Hero() {
   const handleCopyCode = () => {
     const code = `const developer = {
   name: 'Matheus Franceschi',
-  role: 'Senior Full-Stack Engineer',
+  role: 'Senior Software Engineer',
   specialties: ['React Native', 'React', 'Node.js', 'Golang'],
   status: 'Ready to build scalable, high-impact systems'
 };`;
@@ -217,7 +217,7 @@ export function Hero() {
                     <span className="text-amber-300">developer</span>{' '}
                     <span className="text-cyan-400">=</span> {'{\n'}
                     {'  '}name: <span className="text-emerald-400">'Matheus Franceschi'</span>,{'\n'}
-                    {'  '}role: <span className="text-emerald-400">'Senior Full-Stack Engineer'</span>,{'\n'}
+                    {'  '}role: <span className="text-emerald-400">'Senior Software Engineer'</span>,{'\n'}
                     {'  '}experience: <span className="text-amber-400">'4+ years'</span>,{'\n'}
                     {'  '}coreStack: [{'\n'}
                     {'    '}<span className="text-emerald-400">'React Native'</span>,{' '}

@@ -57,7 +57,7 @@ export function Terminal() {
         );
         break;
       case 'whoami':
-        output = 'Matheus Franceschi — Senior Full-Stack Engineer & Systems Architect. Specializing in React, React Native, Node.js, Golang & Scalable Systems.';
+        output = 'Matheus Franceschi — Senior Software Engineer & Systems Architect. Specializing in React, React Native, Node.js, Golang & Scalable Systems.';
         break;
       case 'skills':
         output = 'Frontend & Mobile: React, React Native (Expo), TypeScript, Tailwind CSS\nBackend & Cloud: Node.js, Golang, PostgreSQL, GCP, Docker, Kubernetes\nArchitecture: Microservices, Low-Code Systems, WebSockets, CI/CD';

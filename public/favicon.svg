@@ -1,28 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#09090b"/>
-      <stop offset="100%" stop-color="#0f0f14"/>
-    </linearGradient>
-    <linearGradient id="letter" x1="8" y1="6" x2="24" y2="26" gradientUnits="userSpaceOnUse">
+    <linearGradient id="g" x1="6" y1="4" x2="26" y2="28" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#818cf8"/>
       <stop offset="100%" stop-color="#a855f7"/>
     </linearGradient>
-    <linearGradient id="dot" x1="0" y1="0" x2="1" y2="1" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#6366f1"/>
-      <stop offset="100%" stop-color="#8b5cf6"/>
-    </linearGradient>
   </defs>
 
-  <!-- Background rounded square -->
-  <rect width="32" height="32" rx="8" fill="url(#bg)"/>
+  <!-- Dark rounded square bg -->
+  <rect width="32" height="32" rx="7.5" fill="#111118"/>
 
-  <!-- Subtle inner border -->
-  <rect x="0.5" y="0.5" width="31" height="31" rx="7.5" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
-
-  <!-- Letter F — bold, clean, premium -->
-  <path d="M9 7h12v3H12.5v4.5H20v3h-7.5V25H9V7Z" fill="url(#letter)"/>
-
-  <!-- Accent dot (the indigo pulse dot from the Navbar) -->
-  <circle cx="23" cy="23" r="2.5" fill="url(#dot)"/>
+  <!--
+    Clean F with a curved bottom-right tail:
+    Matches the aesthetic of the OG preview image F logo
+  -->
+  <!-- Vertical stem -->
+  <rect x="8" y="6" width="4" height="20" rx="2" fill="url(#g)"/>
+  <!-- Top bar -->
+  <rect x="8" y="6" width="16" height="4" rx="2" fill="url(#g)"/>
+  <!-- Mid bar -->
+  <rect x="8" y="14" width="11" height="4" rx="2" fill="url(#g)"/>
+  <!-- Curved tail (sweep right at bottom, like the OG image F) -->
+  <path d="M12 22 Q12 28 18 27.5 Q24 27 24 21 Q24 16.5 19 16.5 L12 17 L12 20" 
+        stroke="url(#g)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
 </svg>

@@ -20,7 +20,8 @@
       (function() {
         try {
           var stored = localStorage.getItem('theme');
-          var isDark = stored ? stored === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+          // Default is always dark unless user explicitly chose light
+          var isDark = stored ? stored === 'dark' : true;
           if (isDark) {
             document.documentElement.classList.add('dark');
           } else {

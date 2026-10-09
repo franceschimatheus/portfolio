@@ -4,21 +4,33 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Matheus Franceschi | Senior Software Analyst</title>
+    <title>Matheus Franceschi | Senior Full-Stack Engineer</title>
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Portfolio of Matheus Franceschi, a Senior Software Analyst specializing in React Native, React, and Node.js. Building seamless user experiences and scalable architectures." />
+    <meta name="description" content="Portfolio of Matheus Franceschi, Senior Full-Stack Engineer specializing in React, React Native, Node.js, Golang & Scalable Systems. Building high-impact platforms and cloud architecture." />
     <meta name="author" content="Matheus Franceschi" />
-    <meta name="keywords" content="Matheus Franceschi, Senior Software Analyst, React Native, React, Node.js, Frontend Developer, Fullstack, Typescript" />
-    <meta name="theme-color" content="#0a0a0a" />
+    <meta name="keywords" content="Matheus Franceschi, Senior Full-Stack Engineer, React Native, React, Node.js, Golang, Typescript, GCP, Cloud Architecture, Scalable Systems" />
+    <!-- Google Fonts: Inter & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
 
-    <!-- Open Graph / Social -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://franceschimatheus.github.io/portfolio/" />
-    <meta property="og:title" content="Matheus Franceschi | Senior Software Analyst" />
-    <meta property="og:description" content="Senior Software Analyst specializing in React Native, React, and Node.js." />
+    <!-- Prevent Theme Flash -->
+    <script>
+      (function() {
+        try {
+          var stored = localStorage.getItem('theme');
+          var isDark = stored ? stored === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (isDark) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
   </head>
-  <body>
+  <body class="bg-white dark:bg-[#09090b] text-neutral-900 dark:text-neutral-100 transition-colors duration-300">
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

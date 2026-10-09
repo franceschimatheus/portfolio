@@ -100,7 +100,7 @@ export function Hero() {
             className="text-lg md:text-xl text-neutral-600 dark:text-neutral-400 mb-8 max-w-xl leading-relaxed"
           >
             <span className="font-semibold text-neutral-900 dark:text-neutral-200">
-              Senior Full-Stack & Mobile Engineer
+              Senior Software Engineer
             </span>{' '}
             specializing in <span className="text-indigo-600 dark:text-indigo-400 font-medium">React</span>,{' '}
             <span className="text-indigo-600 dark:text-indigo-400 font-medium">React Native</span>, and{' '}
